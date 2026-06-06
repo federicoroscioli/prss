@@ -1,0 +1,27 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Politiche per l'Infanzia, la Famiglia e la Parità di Genere">
+
+  <!-- Three figures: family -->
+  <!-- Adult 1 (left) -->
+  <circle cx="18" cy="18" r="5.5" fill="#277a3f"/>
+  <path d="M18 24 L18 42" stroke="#277a3f" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M10 30 L26 30" stroke="#277a3f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 42 L13 54" stroke="#277a3f" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M18 42 L23 54" stroke="#277a3f" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Adult 2 (right) -->
+  <circle cx="46" cy="18" r="5.5" fill="#277a3f"/>
+  <path d="M46 24 L46 42" stroke="#277a3f" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M38 30 L54 30" stroke="#277a3f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M46 42 L41 54" stroke="#277a3f" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M46 42 L51 54" stroke="#277a3f" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Child (center, smaller) -->
+  <circle cx="32" cy="26" r="4" fill="#9bcbab" stroke="#277a3f" stroke-width="1.5"/>
+  <path d="M32 30 L32 44" stroke="#277a3f" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M26 36 L38 36" stroke="#277a3f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 44 L28 54" stroke="#277a3f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 44 L36 54" stroke="#277a3f" stroke-width="3" stroke-linecap="round"/>
+  <!-- Connecting arc above -->
+  <path d="M18 14 Q32 6 46 14" stroke="#277a3f" stroke-width="1.5"
+        stroke-linecap="round" fill="none" opacity=".4"/>
+
+</svg>

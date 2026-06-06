@@ -1,0 +1,24 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Infrastrutture Pubbliche">
+
+  <!-- Bridge arch -->
+  <!-- Water / base line -->
+  <path d="M4 52 Q14 48 24 52 Q34 56 44 52 Q54 48 60 52"
+        stroke="#e8a89e" stroke-width="1.5" fill="none" opacity=".5"/>
+  <!-- Main arch -->
+  <path d="M8 52 Q12 28 32 24 Q52 28 56 52"
+        stroke="#c0392b" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Bridge deck -->
+  <line x1="4" y1="40" x2="60" y2="40" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <!-- Vertical suspension cables -->
+  <line x1="18" y1="30" x2="18" y2="40" stroke="#c0392b" stroke-width="1.5" opacity=".6"/>
+  <line x1="25" y1="26" x2="25" y2="40" stroke="#c0392b" stroke-width="1.5" opacity=".6"/>
+  <line x1="32" y1="24" x2="32" y2="40" stroke="#c0392b" stroke-width="1.8"/>
+  <line x1="39" y1="26" x2="39" y2="40" stroke="#c0392b" stroke-width="1.5" opacity=".6"/>
+  <line x1="46" y1="30" x2="46" y2="40" stroke="#c0392b" stroke-width="1.5" opacity=".6"/>
+  <!-- Left tower -->
+  <rect x="11" y="34" width="5" height="20" rx="1" fill="#c0392b"/>
+  <!-- Right tower -->
+  <rect x="48" y="34" width="5" height="20" rx="1" fill="#c0392b"/>
+
+</svg>

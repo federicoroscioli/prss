@@ -1,0 +1,23 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Coesione: Ripopolare l'Italia">
+
+  <!-- Simplified Italy silhouette -->
+  <path d="M28 8 L30 10 L26 14 L24 18 L22 22 L20 26 L18 32
+           L18 38 L20 42 L22 46 L26 48 L28 50 L30 54 L32 56
+           L34 54 L36 50 L38 48 L42 46 L44 42 L46 38 L46 32
+           L44 26 L42 22 L40 18 L38 14 L36 10 L34 8 Z"
+        fill="#1a6fa8" opacity=".12" stroke="#1a6fa8" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Three location dots: N, C, S -->
+  <circle cx="32" cy="20" r="4" fill="#1a6fa8"/>
+  <circle cx="30" cy="34" r="4" fill="#1a6fa8" opacity=".85"/>
+  <circle cx="33" cy="48" r="4" fill="#1a6fa8" opacity=".7"/>
+  <!-- Connection lines between dots -->
+  <line x1="32" y1="24" x2="30" y2="30" stroke="#1a6fa8" stroke-width="1.5"
+        stroke-linecap="round" opacity=".6"/>
+  <line x1="30" y1="38" x2="33" y2="44" stroke="#1a6fa8" stroke-width="1.5"
+        stroke-linecap="round" opacity=".6"/>
+  <!-- Sicilian toe -->
+  <circle cx="44" cy="44" r="3" fill="#1a6fa8" opacity=".5"/>
+  <line x1="38" y1="44" x2="41" y2="44" stroke="#1a6fa8" stroke-width="1.5" opacity=".5"/>
+
+</svg>

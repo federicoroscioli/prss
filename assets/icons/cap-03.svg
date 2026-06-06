@@ -1,0 +1,24 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Immigrazione come Politica Industriale">
+
+  <!-- Compass circle -->
+  <circle cx="32" cy="32" r="24" stroke="#277a3f" stroke-width="2.2" fill="#f5f0e8" opacity=".6"/>
+  <circle cx="32" cy="32" r="2.5" fill="#277a3f"/>
+  <!-- North needle (pointing up-right = forward) -->
+  <path d="M32 32 L44 14" stroke="#277a3f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M44 14 L38 18 L46 22Z" fill="#277a3f"/>
+  <!-- South needle -->
+  <path d="M32 32 L20 50" stroke="#1c1c2e" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+  <!-- Compass ticks N/S/E/W -->
+  <line x1="32" y1="10" x2="32" y2="14" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+  <line x1="32" y1="50" x2="32" y2="54" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+  <line x1="10" y1="32" x2="14" y2="32" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+  <line x1="50" y1="32" x2="54" y2="32" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+  <!-- Small person silhouette on needle direction -->
+  <circle cx="47" cy="10" r="3.5" fill="#277a3f"/>
+  <path d="M47 13 L47 20" stroke="#277a3f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M43 16 L51 16" stroke="#277a3f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M47 20 L44 26" stroke="#277a3f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M47 20 L50 26" stroke="#277a3f" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

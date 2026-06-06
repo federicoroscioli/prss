@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti — PRSS</title>
+  <meta name="description" content="Scrivi al PRSS: segnala una proposta, partecipa al confronto programmatico o iscriviti alla mailing list.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Barlow:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav id="navbar" aria-label="Navigazione principale">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="PRSS – torna alla home">
+      <svg class="nav-logo-mark" viewBox="30 0 160 138"
+     xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true">
+  <path d="M103 128 Q100 110 102 96 Q105 84 110 76"
+        stroke="#5a3e28" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <path d="M117 128 Q120 110 118 96 Q115 84 110 76"
+        stroke="#5a3e28" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <ellipse cx="74"  cy="58" rx="40" ry="35" fill="#277a3f" opacity="0.93"/>
+  <ellipse cx="146" cy="58" rx="40" ry="35" fill="#1a6fa8" opacity="0.93"/>
+  <ellipse cx="110" cy="32" rx="40" ry="35" fill="#c0392b" opacity="0.93"/>
+  <ellipse cx="110" cy="52" rx="22" ry="20" fill="#1c1c2e" opacity="0.13"/>
+</svg>
+      <span class="nav-wordmark">PRSS</span>
+    </a>
+    <button class="nav-hamburger" aria-label="Apri menu" aria-expanded="false" aria-controls="nav-menu-c">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-menu-c" role="list">
+      <li><a href="index.html#manifesto-intro">Chi siamo</a></li>
+      <li><a href="index.html#programma">Il Programma</a></li>
+      <li><a href="contatti.html" class="nav-cta active">Contatti</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="contact-hero">
+  <div class="container">
+    <div class="tri-rule" aria-hidden="true" style="margin-bottom:24px;">
+      <span class="az"></span><span class="ro"></span><span class="ve"></span>
+    </div>
+    <h1 style="font-family:var(--font-serif);font-size:clamp(28px,5vw,48px);font-weight:900;color:var(--ink);margin-bottom:12px;">
+      Scrivici
+    </h1>
+    <p style="font-size:18px;color:var(--mid);max-width:560px;line-height:1.6;">
+      Il programma PRSS è un documento vivo. Ogni contributo, segnalazione e critica è benvenuto.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-layout">
+
+      <div class="contact-intro">
+        <h2>Partecipa al confronto</h2>
+        <p>
+          Il PRSS non è un partito calato dall'alto: è un progetto costruito sulla
+          partecipazione. Se hai una proposta su uno dei 19 capitoli programmatici,
+          una critica al piano finanziario o semplicemente vuoi saperne di più,
+          scrivi — ogni messaggio viene letto.
+        </p>
+        <p>
+          Puoi anche segnalare fonti, studi accademici o esperienze internazionali
+          non ancora citate nel manifesto. Il programma cresce con i contributi.
+        </p>
+        <p>
+          Se sei un ricercatore, un economista, un giurista o un esperto di settore
+          e vuoi contribuire alla revisione di un capitolo specifico,
+          indicalo nel messaggio.
+        </p>
+        <a href="mailto:prss@gmail.com" class="contact-direct" aria-label="Scrivi via email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="currentColor" stroke-width="1.8"/>
+            <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.8"
+                      stroke-linecap="round"/>
+          </svg>
+          prss@gmail.com
+        </a>
+      </div>
+
+      <div class="contact-form-wrap">
+        <form class="contact-form"
+              action="https://formsubmit.co/prss@gmail.com"
+              method="POST"
+              aria-label="Modulo di contatto">
+          <!-- Formsubmit.co options -->
+          <input type="hidden" name="_subject" value="Messaggio dal sito PRSS">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://federicoroscioli.github.io/prss/contatti-grazie.html">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-group">
+            <label class="form-label" for="contact-nome">Nome e cognome</label>
+            <input class="form-input" type="text" id="contact-nome"
+                   name="nome" required placeholder="Mario Rossi" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-email">Email</label>
+            <input class="form-input" type="email" id="contact-email"
+                   name="email" required placeholder="mario@esempio.it" autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-oggetto">Oggetto</label>
+            <select class="form-select" id="contact-oggetto" name="oggetto">
+              <option value="">Seleziona un argomento...</option>
+              <option>Proposta programmatica</option>
+              <option>Segnalazione di fonte / studio</option>
+              <option>Critica o revisione</option>
+              <option>Collaborazione tecnica</option>
+              <option>Media / stampa</option>
+              <option>Altro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-msg">Messaggio</label>
+            <textarea class="form-textarea" id="contact-msg"
+                      name="messaggio" required
+                      placeholder="Scrivi qui il tuo messaggio..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Invia messaggio</button>
+          <p class="form-note">
+            Il modulo è gestito da <a href="https://formsubmit.co" target="_blank"
+            rel="noopener" style="color:var(--azzurro)">FormSubmit</a>.
+            I dati non vengono condivisi con terze parti.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-wordmark">PRSS</div>
+      <p class="footer-tagline">Per uno Stato che serve, davvero.</p>
+      <div class="footer-rule" aria-hidden="true">
+        <span class="az"></span><span class="ro"></span><span class="ve"></span>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Link footer">
+      <a href="index.html#programma">Il Programma</a>
+      <a href="PRSS-manifesto.pdf" target="_blank" rel="noopener">Scarica il Manifesto (PDF)</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+    <p class="footer-copy">
+      &copy; 2026 Partito per il Rinnovamento Sociale e la Sostenibilità &mdash; PRSS.
+      Versione 3.3. Documento di lavoro soggetto a revisione.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

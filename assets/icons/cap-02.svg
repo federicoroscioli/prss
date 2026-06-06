@@ -1,0 +1,29 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Lavoro Dignitoso">
+
+  <!-- Two hands clasping - handshake -->
+  <!-- Left hand body -->
+  <path d="M6 36 C6 30 12 28 16 30 L28 22 C30 20 33 21 33 24 L33 26
+           C35 24 38 25 38 28 L38 30 C40 28 43 30 43 33 L43 36
+           C43 42 38 46 32 46 L20 46 C13 46 6 42 6 36Z"
+        fill="#c0392b" opacity=".15" stroke="#c0392b" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Right hand body -->
+  <path d="M58 36 C58 30 52 28 48 30 L36 22 C34 20 31 21 31 24 L31 26
+           C29 24 26 25 26 28 L26 30 C24 28 21 30 21 33 L21 36
+           C21 42 26 46 32 46 L44 46 C51 46 58 42 58 36Z"
+        fill="#c0392b" opacity=".15" stroke="#c0392b" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Simplified: just two clasped fists -->
+  <!-- Left arm -->
+  <path d="M5 38 L22 38" stroke="#c0392b" stroke-width="8" stroke-linecap="round"/>
+  <!-- Left fist -->
+  <rect x="18" y="32" width="12" height="12" rx="4" fill="#c0392b"/>
+  <!-- Right arm -->
+  <path d="M59 38 L42 38" stroke="#c0392b" stroke-width="8" stroke-linecap="round"/>
+  <!-- Right fist -->
+  <rect x="34" y="32" width="12" height="12" rx="4" fill="#c0392b"/>
+  <!-- Contract / document above -->
+  <rect x="24" y="12" width="16" height="16" rx="2" fill="#e8a89e" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="28" y1="17" x2="36" y2="17" stroke="#c0392b" stroke-width="1.3" opacity=".7"/>
+  <line x1="28" y1="21" x2="34" y2="21" stroke="#c0392b" stroke-width="1.3" opacity=".7"/>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Politica della Casa">
+
+  <!-- House silhouette -->
+  <!-- Roof -->
+  <path d="M32 10 L58 34 L6 34 Z" fill="#1a6fa8"/>
+  <!-- Chimney -->
+  <rect x="42" y="14" width="6" height="12" rx="1" fill="#1a6fa8" opacity=".7"/>
+  <!-- House body -->
+  <rect x="10" y="34" width="44" height="22" rx="2" fill="#1a6fa8" opacity=".15"
+        stroke="#1a6fa8" stroke-width="2"/>
+  <!-- Door -->
+  <rect x="26" y="44" width="12" height="12" rx="2" fill="#1a6fa8" opacity=".6"/>
+  <!-- Window left -->
+  <rect x="14" y="38" width="8" height="8" rx="1.5" fill="white" stroke="#1a6fa8" stroke-width="1.5"/>
+  <line x1="18" y1="38" x2="18" y2="46" stroke="#1a6fa8" stroke-width="1" opacity=".5"/>
+  <line x1="14" y1="42" x2="22" y2="42" stroke="#1a6fa8" stroke-width="1" opacity=".5"/>
+  <!-- Window right -->
+  <rect x="42" y="38" width="8" height="8" rx="1.5" fill="white" stroke="#1a6fa8" stroke-width="1.5"/>
+  <line x1="46" y1="38" x2="46" y2="46" stroke="#1a6fa8" stroke-width="1" opacity=".5"/>
+  <line x1="42" y1="42" x2="50" y2="42" stroke="#1a6fa8" stroke-width="1" opacity=".5"/>
+  <!-- Heart inside door -->
+  <path d="M32 47 C32 45 35 44 35 47 C35 50 32 53 32 53
+           C32 53 29 50 29 47 C29 44 32 45 32 47Z"
+        fill="white" opacity=".9"/>
+
+</svg>

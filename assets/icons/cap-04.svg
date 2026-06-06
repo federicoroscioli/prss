@@ -1,0 +1,22 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Artigianato, PMI ed Export">
+
+  <!-- Craftsman compass / divider tool -->
+  <!-- Left leg -->
+  <path d="M32 18 L18 52" stroke="#1a6fa8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right leg -->
+  <path d="M32 18 L46 52" stroke="#1a6fa8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Hinge circle -->
+  <circle cx="32" cy="18" r="5" fill="#1a6fa8"/>
+  <circle cx="32" cy="18" r="2.5" fill="white"/>
+  <!-- Pencil tip left -->
+  <path d="M18 52 L15 56 L21 54Z" fill="#1a6fa8"/>
+  <!-- Pencil tip right -->
+  <path d="M46 52 L43 56 L49 54Z" fill="#1a6fa8"/>
+  <!-- Arc showing span (like a compass drawing) -->
+  <path d="M18 52 Q32 42 46 52" stroke="#1a6fa8" stroke-width="1.5"
+        stroke-dasharray="3 3" fill="none" opacity=".5"/>
+  <!-- Small circle drawn by compass (bottom center) -->
+  <circle cx="32" cy="55" r="4.5" stroke="#1a6fa8" stroke-width="1.5" fill="none" opacity=".4"/>
+
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Conflitto di Interessi e Anticorruzione">
+
+  <!-- Balance scales -->
+  <!-- Central pole -->
+  <line x1="32" y1="14" x2="32" y2="52" stroke="#277a3f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cross beam -->
+  <line x1="14" y1="24" x2="50" y2="24" stroke="#277a3f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Pivot -->
+  <circle cx="32" cy="14" r="3.5" fill="#277a3f"/>
+  <!-- Left pan (heavier - weighed down by chain) -->
+  <path d="M14 24 L11 36 Q14 40 20 38 Q26 36 23 28Z"
+        fill="#277a3f" opacity=".2" stroke="#277a3f" stroke-width="1.5"/>
+  <path d="M14 24 L17 33" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="17" y1="33" x2="11" y2="36" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="17" y1="33" x2="23" y2="36" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Right pan (lighter - slightly higher) -->
+  <path d="M50 24 L47 32 Q50 36 56 34 Q62 32 59 24Z"
+        fill="#277a3f" opacity=".2" stroke="#277a3f" stroke-width="1.5"/>
+  <path d="M50 24 L47 31" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="47" y1="31" x2="41" y2="33" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="47" y1="31" x2="53" y2="33" stroke="#277a3f" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Broken chain below -->
+  <path d="M28 50 Q30 54 32 52 Q34 50 36 54" stroke="#c0392b" stroke-width="2"
+        stroke-linecap="round" fill="none"/>
+  <!-- Base -->
+  <line x1="26" y1="54" x2="38" y2="54" stroke="#277a3f" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

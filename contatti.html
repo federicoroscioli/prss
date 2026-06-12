@@ -86,29 +86,22 @@
       </div>
 
       <div class="contact-form-wrap">
-        <form class="contact-form"
-              action="https://formsubmit.co/contatti.prss@gmail.com"
-              method="POST"
+        <form class="contact-form" id="prss-contact-form" novalidate
               aria-label="Modulo di contatto">
-          <!-- Formsubmit.co options -->
-          <input type="hidden" name="_subject" value="Messaggio dal sito PRSS">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://federicoroscioli.github.io/prss/contatti-grazie.html">
-          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
           <div class="form-group">
             <label class="form-label" for="contact-nome">Nome e cognome</label>
             <input class="form-input" type="text" id="contact-nome"
-                   name="nome" required placeholder="Mario Rossi" autocomplete="name">
+                   required placeholder="Mario Rossi" autocomplete="name">
           </div>
           <div class="form-group">
-            <label class="form-label" for="contact-email">Email</label>
+            <label class="form-label" for="contact-email">La tua email</label>
             <input class="form-input" type="email" id="contact-email"
-                   name="email" required placeholder="mario@esempio.it" autocomplete="email">
+                   required placeholder="mario@esempio.it" autocomplete="email">
           </div>
           <div class="form-group">
             <label class="form-label" for="contact-oggetto">Oggetto</label>
-            <select class="form-select" id="contact-oggetto" name="oggetto">
+            <select class="form-select" id="contact-oggetto">
               <option value="">Seleziona un argomento...</option>
               <option>Proposta programmatica</option>
               <option>Segnalazione di fonte / studio</option>
@@ -121,16 +114,43 @@
           <div class="form-group">
             <label class="form-label" for="contact-msg">Messaggio</label>
             <textarea class="form-textarea" id="contact-msg"
-                      name="messaggio" required
-                      placeholder="Scrivi qui il tuo messaggio..."></textarea>
+                      required placeholder="Scrivi qui il tuo messaggio..."></textarea>
           </div>
-          <button type="submit" class="form-submit">Invia messaggio</button>
-          <p class="form-note">
-            Il modulo è gestito da <a href="https://formsubmit.co" target="_blank"
-            rel="noopener" style="color:var(--azzurro)">FormSubmit</a>.
-            I dati non vengono condivisi con terze parti.
+          <button type="submit" class="form-submit" id="prss-submit-btn">Invia messaggio</button>
+          <p class="form-note" id="prss-form-note">
+            Cliccando "Invia" si aprirà il tuo programma di posta con il messaggio precompilato.
           </p>
         </form>
+
+        <script>
+        document.getElementById('prss-contact-form').addEventListener('submit', function(e) {
+          e.preventDefault();
+          var nome    = document.getElementById('contact-nome').value.trim();
+          var email   = document.getElementById('contact-email').value.trim();
+          var oggetto = document.getElementById('contact-oggetto').value || 'Messaggio dal sito PRSS';
+          var msg     = document.getElementById('contact-msg').value.trim();
+
+          if (!nome || !email || !msg) {
+            document.getElementById('prss-form-note').textContent =
+              'Compila almeno nome, email e messaggio prima di inviare.';
+            document.getElementById('prss-form-note').style.color = 'var(--rosso)';
+            return;
+          }
+
+          var subject = oggetto + ' — PRSS';
+          var body    = 'Da: ' + nome + ' <' + email + '>\n\n' + msg;
+          var mailto  = 'mailto:contatti.prss@gmail.com'
+                      + '?subject=' + encodeURIComponent(subject)
+                      + '&body='    + encodeURIComponent(body);
+
+          window.location.href = mailto;
+
+          var note = document.getElementById('prss-form-note');
+          note.style.color = 'var(--verde)';
+          note.textContent  = 'Si è aperto il tuo programma di posta con il messaggio precompilato. '
+                            + 'Se non si apre, scrivi direttamente a contatti.prss@gmail.com';
+        });
+        </script>
       </div>
 
     </div>

@@ -1434,3 +1434,140 @@ footer {
     gap: 36px;
   }
 }
+
+/* ── Costo/Beneficio label (PRSS + Roma) ────────────────────────────────── */
+.tl-card-cost {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--mid);
+  margin: 8px 0 6px;
+  padding: 5px 9px;
+  background: var(--paper);
+  border-radius: 4px;
+  line-height: 1.55;
+  letter-spacing: 0.1px;
+}
+
+/* ── Roma card extensions ───────────────────────────────────────────────── */
+.tl-card-desc {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--mid);
+  margin-top: 10px;
+}
+.tl-card-refs {
+  list-style: none;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--light);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.tl-card-refs li {
+  font-size: 11px;
+  color: var(--mid);
+  line-height: 1.55;
+}
+.tl-card-refs li strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* ── Roma Hero ──────────────────────────────────────────────────────────── */
+.roma-hero {
+  padding: 80px 0 60px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--light);
+}
+.roma-hero-eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 12px;
+}
+.roma-hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(40px, 8vw, 72px);
+  font-weight: 900;
+  color: var(--ink);
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+.roma-hero-sub {
+  font-size: 18px;
+  color: var(--mid);
+  line-height: 1.65;
+  max-width: 600px;
+  margin-bottom: 32px;
+}
+.roma-hero-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: var(--azzurro);
+  color: white;
+  border-radius: var(--radius-lg);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity var(--transition), box-shadow var(--transition);
+}
+.roma-hero-pdf:hover { opacity: .88; box-shadow: var(--shadow-md); }
+
+/* ── Roma intro section ─────────────────────────────────────────────────── */
+.roma-intro-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--light);
+}
+.roma-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 60px;
+  align-items: start;
+}
+.roma-intro-block h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(18px, 2.5vw, 24px);
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+.roma-intro-block p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--mid);
+  margin-bottom: 14px;
+}
+.roma-intro-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.roma-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 20px;
+  background: var(--paper);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--azzurro);
+}
+.roma-stat-num {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--azzurro);
+  line-height: 1;
+}
+.roma-stat-label {
+  font-size: 12px;
+  color: var(--mid);
+  line-height: 1.4;
+}
+@media (max-width: 700px) {
+  .roma-intro-grid { grid-template-columns: 1fr; }
+}

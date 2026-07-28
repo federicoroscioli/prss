@@ -1571,3 +1571,26 @@ footer {
 @media (max-width: 700px) {
   .roma-intro-grid { grid-template-columns: 1fr; }
 }
+
+
+/* ── Costo/beneficio nell'hero dei capitoli ─────────────────────────────── */
+.chap-cost {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--white);
+  border-radius: var(--radius);
+  border-left: 3px solid;
+}
+[data-color="azzurro"] .chap-cost { border-color: var(--azzurro); background: var(--az-light); }
+[data-color="rosso"]   .chap-cost { border-color: var(--rosso);   background: var(--ro-light); }
+[data-color="verde"]   .chap-cost { border-color: var(--verde);   background: var(--ve-light); }
+
+@media (max-width: 600px) {
+  .chap-cost { font-size: 11px; padding: 7px 11px; }
+}

@@ -1594,3 +1594,36 @@ footer {
 @media (max-width: 600px) {
   .chap-cost { font-size: 11px; padding: 7px 11px; }
 }
+
+
+/* ── Nota economica ─────────────────────────────────────────────────────── */
+.econ-box { background: var(--paper); }
+.econ-note p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--mid);
+  margin: 0 0 9px;
+}
+.econ-note p:last-child { margin-bottom: 0; }
+.econ-note strong { color: var(--ink); }
+.econ-caveat {
+  padding: 8px 10px;
+  background: var(--white);
+  border-left: 2px solid var(--rosso);
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+}
+.econ-src { font-size: 12px !important; }
+
+/* nelle card della roadmap di Roma, che non ha barre laterali */
+.tl-card-econ {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line, #e5e0d8);
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--mid);
+}
+.tl-card-econ strong { color: var(--ink); }
+.tl-card-econ p { margin: 0 0 6px; }
+.tl-card-econ p:last-child { margin-bottom: 0; }

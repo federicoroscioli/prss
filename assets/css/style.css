@@ -1503,7 +1503,7 @@ footer {
   max-width: 600px;
   margin-bottom: 32px;
 }
-.roma-hero-pdf {
+.roma-hero-pdf, .hero-pdf-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -1516,7 +1516,7 @@ footer {
   text-decoration: none;
   transition: opacity var(--transition), box-shadow var(--transition);
 }
-.roma-hero-pdf:hover { opacity: .88; box-shadow: var(--shadow-md); }
+.roma-hero-pdf:hover, .hero-pdf-btn:hover { opacity: .88; box-shadow: var(--shadow-md); }
 
 /* ── Roma intro section ─────────────────────────────────────────────────── */
 .roma-intro-section {
@@ -1627,3 +1627,40 @@ footer {
 .tl-card-econ strong { color: var(--ink); }
 .tl-card-econ p { margin: 0 0 6px; }
 .tl-card-econ p:last-child { margin-bottom: 0; }
+
+/* ── PDF nel menu di navigazione ─────────────────────────────────────────
+   Il PDF era raggiungibile solo dal footer: su mobile, dove il footer è
+   lontano, era di fatto introvabile. Compare ora nel menu, prima voce
+   sempre visibile appena si apre l'hamburger. */
+.nav-links .nav-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 1;
+  border: 1.5px solid var(--ink);
+  padding: 7px 16px;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .3px;
+  transition: background var(--transition), color var(--transition);
+}
+.nav-links .nav-pdf svg { flex-shrink: 0; }
+.nav-links .nav-pdf:hover { background: var(--ink); color: white; opacity: 1; }
+
+/* ── Nota di trasparenza ─────────────────────────────────────────────────── */
+.disclaimer-note {
+  margin: 0 0 40px;
+  padding: 16px 20px;
+  background: var(--paper);
+  border: 1px solid var(--light);
+  border-left: 3px solid var(--mid);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.disclaimer-note p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--mid);
+  margin: 0;
+}
+.disclaimer-note strong { color: var(--ink); }
